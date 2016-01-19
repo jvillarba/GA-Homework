@@ -68,9 +68,6 @@ function getWinner(playerMove,computerMove) {
              computerWins += 1;
          }
          // After each 'round', display some text in the console indicating who played what, who won, and what the current scoreboard looks like.
-         // For example,
-         //  console.log("Player chose " + playerMove + " while Computer chose " + computerMove);
-         //  console.log("The score is currently " + playerWins + " to " + computerWins + "\n");
          console.log("Player chose " + playerMove + " while Computer chose " + computerMove);
          console.log("The score is currently " + playerWins + " to " + computerWins + "\n");
      }
